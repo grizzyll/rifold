@@ -51,9 +51,33 @@
         </div>
     </section>
 
+    <section class="about max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-start justify-between gap-8">
+
+        <div class="md:w-1/2 flex flex-col justify-between">
+            <h1 class="text-4xl md:text-8xl font-extrabold leading-tight">
+                FOR <br> THE <br> STORIES <br> AHEAD
+            </h1>
+
+            <h1 class="text-lg md:text-2xl mt-6 leading-relaxed">
+                Dari kota kecil, kami belajar arti kedekatan.
+                <br> Dari setiap produk, kami berusaha menghadirkan ketenangan.
+                <br> Dan dari setiap pelanggan, kami percaya:
+                cerita terbaik masih menunggu di depan sana.
+                <br><br>
+                Rifold — For The Stories Ahead.
+            </h1>
+        </div>
+
+        <div class="md:w-1/2 flex justify-end">
+            <img src="{{ asset('images/poloovercool.png') }}" alt="about" class="w-230 h-auto">
+        </div>
+
+    </section>
+
+
     <section class="seller bg-white">
         <div class="max-w-7xl mx-auto px-6 py-16 text-center">
-            <h2 class="text-4xl font-bold mb-12 uppercase tracking-wide">Best Seller</h2>
+            <h2 class="text-4xl font-bold mb-12 uppercase tracking-wide">RIFOLD Best Seller</h2>
 
             <div class="flex space-x-6 overflow-x-auto scroll-smooth pb-4 scrollbar-hide">
                 <!-- Card 1 -->

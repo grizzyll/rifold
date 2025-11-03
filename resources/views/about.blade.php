@@ -37,22 +37,60 @@
         </div>
     </section>
 
-<section class="sejarah bg-white py-12">
-  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8">
+    <section class="about max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-start justify-between gap-8">
 
-    <div class="flex-shrink-0 md:w-1/2">
-      <img src="{{ asset('images/kiri.png') }}" alt="Sejarah" class="rounded-lg shadow-lg w-full object-cover">
-    </div>
-    
-    <article class="md:w-1/2 text-gray-800 text-justify leading-relaxed">
-      <p class="text-start mb-4">
-        Rifold lahir di kota kecil pada 2019 dengan semangat besar. Berawal dari obrolan sederhana antar sahabat yang percaya bahwa pakaian bukan sekadar kain, tetapi medium untuk menyimpan cerita,
-        Rifold tumbuh menjadi brand yang menghadirkan makna di setiap detailnya. <br><br>
-        That’s what it’s all about.
-      </p>
-    </article>
-  </div>
-</section>
+        <div class="md:w-1/2 flex flex-col justify-between">
+            <img src="{{ asset('images/poloovercool.png') }}" alt="about" class="w-230 h-auto">
+
+        </div>
+
+        <div class="md:w-1/2 flex justify-end">
+            <h1 class="text-lg md:text-5xl mt-6 leading-relaxed font-poppins">
+                Rifold lahir di kota kecil pada 2019 dengan semangat besar.
+                Berawal dari obrolan sederhana antar sahabat yang percaya bahwa pakaian bukan sekadar kain,
+                tetapi medium untuk menyimpan cerita, Rifold tumbuh menjadi brand yang menghadirkan makna di setiap
+                detailnya.
+            </h1>
+        </div>
+
+    </section>
+
+    <section class="about max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-start justify-between gap-8">
+
+        <div class="md:w-1/2 flex flex-col justify-between">
+            <h1 class="text-lg md:text-4xl mt-6 leading-relaxed font-poppins">
+                Di setiap prosesnya—mulai dari pemilihan kain, rancangan desain, hingga detail produksi—Rifold berpegang
+                pada nilai:
+                hangat, personal, dan soulful. Kami ingin setiap pakaian yang kami buat bukan hanya dipakai,
+                tetapi juga menjadi bagian dari perjalanan hidup pemakainya.<br>
+                <br> Tagline kami, “For The Stories Ahead”, adalah pengingat bahwa setiap orang sedang menulis kisahnya
+                masing-masing.
+                Dan Rifold hadir untuk menemani perjalanan itu—entah di momen sederhana sehari-hari, atau di langkah
+                besar yang mengubah hidup.
+            </h1>
+        </div>
+
+        <div class="md:w-1/2 flex justify-end">
+            <img src="{{ asset('images/about2.png') }}" alt="about" class="w-230 h-auto">
+        </div>
+
+    </section>
+    <section class="about max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row items-start justify-between gap-8">
+
+        <div class="md:w-1/2 flex flex-col justify-between">
+            <img src="{{ asset('images/about3.png') }}" alt="about" class="w-230 h-auto">
+        </div>
+
+        <div class="md:w-1/2 flex justify-end">
+            <h1 class="text-lg md:text-4xl mt-6 leading-relaxed font-poppins">
+                Dari kota kecil, kami belajar arti kedekatan. Dari setiap produk,
+                kami berusaha menghadirkan ketenangan. Dan dari setiap pelanggan,
+                kami percaya: cerita terbaik masih menunggu di depan sana.
+                Rifold — For The Stories Ahead.
+            </h1>
+        </div>
+
+    </section>
 
 </body>
 
