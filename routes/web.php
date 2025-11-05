@@ -4,17 +4,21 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.home.home');
 })->name('home');
 
 Route::get('/about', function () {
-    return view('about');
+    return view('pages.about.about');
 })->name('about');
 
 Route::get('/katalog', function () {
-    return view('katalog');
+    return view('pages.katalog');
 })->name('katalog');
 
 Route::get('/mixandmatch', function () {
-    return view('mixandmatch');
+    return view('pages.mixandmatch');
 })->name('mixandmatch');
+
+Route::get('/bestseller', function () {
+    return view('pages.home.bestseller');
+})->name('bestseller');
