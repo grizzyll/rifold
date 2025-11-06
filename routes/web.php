@@ -12,11 +12,11 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/katalog', function () {
-    return view('pages.katalog');
+    return view('pages.katalog.katalog');
 })->name('katalog');
 
 Route::get('/mixandmatch', function () {
-    return view('pages.mixandmatch');
+    return view('pages.mixandmatch.mixandmatch');
 })->name('mixandmatch');
 
 Route::get('/bestseller', function () {

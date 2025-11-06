@@ -117,26 +117,6 @@
     </section>
 
   </main>
-
-  <!-- FOOTER -->
-  <footer class="bg-[#4b463f] text-white mt-10 py-10">
-    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-6 px-6">
-      <div class="md:col-span-2">
-        <h2 class="text-3xl font-bold mb-2">FOR THE STORIES AHEAD</h2>
-      </div>
-      <div>
-        <h3 class="font-semibold mb-2">Company</h3>
-        <p>About</p>
-        <p>Address</p>
-      </div>
-      <div>
-        <h3 class="font-semibold mb-2">Contact</h3>
-        <p>WhatsApp</p>
-        <p>rifold@gmail.com</p>
-      </div>
-    </div>
-    <div class="text-center mt-8 font-bold tracking-widest">RIFOLD</div>
-  </footer>
-
+  @include('components.footer')
 </body>
 </html>
