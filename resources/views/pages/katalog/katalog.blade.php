@@ -28,21 +28,7 @@
 <body class="bg-gray-100">
 
   <!-- NAVBAR -->
-  <nav class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col items-center">
-      <div class="mb-2">
-        <a href="{{ route('home') }}">
-          <img src="{{ asset('images/logo.png') }}" alt="logo" width="186" height="42" />
-        </a>
-      </div>
-      <div class="flex space-x-6 font-medium text-gray-700">
-        <a href="{{ route('home') }}" class="hover:text-black">Home</a>
-        <a href="{{ route('about') }}" class="hover:text-black">About</a>
-        <a href="{{ route('katalog') }}" class="hover:text-black">Katalog</a>
-        <a href="{{ route('mixandmatch') }}" class="hover:text-black">Mix and Match</a>
-      </div>
-    </div>
-  </nav>
+   @include('components.navbar')
 
   <!-- BANNER -->
   <section class="flex justify-center relative mt-4">
@@ -83,35 +69,36 @@
     <section class="w-full md:w-[75%]">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
 
-        <!-- PRODUK 1 -->
-        <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
-          <img src="{{ asset('images/cactus green.png') }}" alt="Overcool Micro Pique Polo"
-            class="w-full h-56 object-contain bg-gray-50 p-4" />
-          <div class="p-4 text-center">
-            <h3 class="text-base font-semibold text-gray-800">Overcool Micro Pique Polo</h3>
-            <p class="text-gray-500 mt-1 text-sm">Rp 149.000</p>
-          </div>
-        </div>
+         <!-- Card 1 -->
+                <div
+                    class="flex-none w-64 bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform hover:scale-105">
+                    <img src="{{ asset('images/kiri.png') }}" alt="Best Seller"
+                        class="w-full h-64 object-cover rounded-md mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Product Name</h3>
+                    <p class="text-gray-600">Rp 150.000</p>
+                </div>
 
-        <!-- PRODUK 2 -->
-        <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
-          <img src="{{ asset('images/polo_white.png') }}" alt="White Polo Classic"
-            class="w-full h-56 object-contain bg-gray-50 p-4" />
-          <div class="p-4 text-center">
-            <h3 class="text-base font-semibold text-gray-800">White Polo Classic</h3>
-            <p class="text-gray-500 mt-1 text-sm">Rp 149.000</p>
-          </div>
-        </div>
+                <!-- Card 2 -->
+                <div
+                    class="flex-none w-64 bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform hover:scale-105">
+                    <img src="{{ asset('images/kiri.png') }}" alt="Best Seller"
+                        class="w-full h-64 object-cover rounded-md mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Product Name</h3>
+                    <p class="text-gray-600">Rp 150.000</p>
+                </div>
 
-        <!-- PRODUK 3 -->
-        <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
-          <img src="{{ asset('images/polo_black.png') }}" alt="Black Polo Essential"
-            class="w-full h-56 object-contain bg-gray-50 p-4" />
-          <div class="p-4 text-center">
-            <h3 class="text-base font-semibold text-gray-800">Black Polo Essential</h3>
-            <p class="text-gray-500 mt-1 text-sm">Rp 149.000</p>
-          </div>
-        </div>
+                <!-- Card 2 -->
+                <div
+                    class="flex-none w-64 bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform hover:scale-105">
+                    <img src="{{ asset('images/kiri.png') }}" alt="Best Seller"
+                        class="w-full h-64 object-cover rounded-md mb-4">
+                    <h3 class="text-lg font-semibold mb-2">Product Name</h3>
+                    <p class="text-gray-600">Rp 150.000</p>
+                </div>
+
+        
+
+        
 
       </div>
     </section>
