@@ -41,7 +41,7 @@
     <section class="w-full md:w-[75%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Example Product Card -->
       <div class="bg-white rounded-lg shadow-md overflow-hidden">
-        <img src="{{ asset('images/kanan.pngg') }}" alt="Product Image" class="w-full h-48 object-cover">
+        <img src="{{ asset('images/kanan.png') }}" alt="Product Image" class="w-full h-48 object-cover">
         <div class="p-4">
             <h3 class="text-lg font-semibold mb-2">Product Name</h3>
             <p class="text-gray-600 mb-4">$29.99</p>
