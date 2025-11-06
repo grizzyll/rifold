@@ -22,3 +22,7 @@ Route::get('/mixandmatch', function () {
 Route::get('/bestseller', function () {
     return view('pages.home.bestseller');
 })->name('bestseller');
+
+Route::get('/admin', function () {
+    return view('pages.admin.main');
+})->name('admin');
