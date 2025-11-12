@@ -27,7 +27,6 @@
 
 <body class="bg-gray-100">
 
-<<<<<<< HEAD
   <!-- NAVBAR -->
   @include('components.navbar')
 
