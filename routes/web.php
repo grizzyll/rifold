@@ -26,3 +26,4 @@ Route::get('/bestseller', function () {
 Route::get('/admin', function () {
     return view('pages.admin.main');
 })->name('admin');
+
