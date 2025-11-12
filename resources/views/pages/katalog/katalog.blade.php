@@ -2,31 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Rifold - Katalog</title>
-  <style>
-    .banner {
-      width: 100%;
-      max-width: 1293px;
-      height: 501px;
-      object-fit: cover;
-      margin: 0 auto;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rifold - Katalog</title>
+    <style>
+        .banner {
+            width: 100%;
+            max-width: 1293px;
+            height: 501px;
+            object-fit: cover;
+            margin: 0 auto;
+        }
 
-    .product-card img {
-      transition: transform 0.3s ease;
-    }
+        .product-card img {
+            transition: transform 0.3s ease;
+        }
 
-    .product-card:hover img {
-      transform: scale(1.05);
-    }
-  </style>
+        .product-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 
 <body class="bg-gray-100">
 
+<<<<<<< HEAD
   <!-- NAVBAR -->
   @include('components.navbar')
 
@@ -254,6 +255,3 @@
       applyFilters();
     });
   </script>
-
-</body>
-</html>
